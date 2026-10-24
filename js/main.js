@@ -29,7 +29,7 @@
     var PRICE = JSON.parse(calcForm.getAttribute('data-price'));
     var DAYS = { kosm: 0.45, chern: 0.6, klyuch: 1.1 };
     var MAT = { kosm: 0.25, chern: 0.45, klyuch: 0.35 };
-    var WC = { kosm: 40000, chern: 50000, klyuch: 90000 };
+    var WC = { kosm: 42000, chern: 52500, klyuch: 94500 };
     var fmt = function (n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' '); };
     var calc = function () {
       var area = +range.value;
